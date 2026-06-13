@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #457b9d;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background-image: url(picture/logo.avif);
+    background-size: cover;
+    /* mix-blend-mode: multiply; */
+    filter: drop-shadow(0 0 10px #07afd1);
+    border-radius: 50px;
+    border: none;
+
+}
+
+.main-container {
+    min-height: 60px;
+    height: auto;
+    width: 100%;
+    background-color: #111827;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.option {
+    height: 2rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search {
+    height: 2rem;
+    width: 25rem;
+    max-width: 100%;
+    padding: 0;
+    color: white;
+    justify-content: space-evenly;
+
+}
+
+#btn {
+    background-color: #1d3557;
+    padding: 6px 30px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+#btn:hover {
+    background-color: #bb3e03;
+    font-size: 1.08rem;
+    text-align: center;
+    filter: drop-shadow(0 0 10px rgb(207, 55, 55));
+}
+
+.input {
+    height: 2rem;
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+    width: auto;
+
+}
+
+.wishlist {
+    padding: 6px 30px;
+    color: whitesmoke;
+}
+
+.wishlist:hover {
+    font-size: 1.08rem;
+    color: #bb3e03;
+    filter: drop-shadow(0 0 10px rgb(207, 55, 55));
+}
+
+.cart {
+    padding: 6px 30px;
+    color: whitesmoke;
+}
+
+.cart:hover {
+    font-size: 1.08rem;
+    color: #bb3e03;
+    filter: drop-shadow(0 0 10px rgb(207, 55, 55));
+}
+
+.sign {
+    padding: 6px 30px;
+    color: whitesmoke;
+}
+
+.sign:hover {
+    font-size: 1.07rem;
+    color: #bb3e03;
+    filter: drop-shadow(0 0 10px rgb(207, 55, 55));
+}
+
+/* @media (max-width: 768px) {
+
+    .container {
+        justify-content: center;
+        height: auto;
+    }
+
+    .search {
+        width: 95%;
+        margin-top: 10px;
+    }
+
+    .wishlist,
+    .cart,
+    .sign {
+        padding: 6px 10px;
+    } 
+ } */
+/* aside bar */
+.side-container {
+    display: flex;
+    min-height: 120vh;
+    margin-top: 10px;
+}
+
+.aside {
+    background-color: #ffffff;
+    width: 252px;
+    height: 27rem;
+    color: white;
+    border-radius: 1rem;
+    filter: drop-shadow(0 0 10px whitesmoke);
+
+}
+
+h2 {
+    background: #14213D;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 1rem;
+    /* filter: drop-shadow(0 0 10px whitesmoke); */
+}
+
+h2:hover {
+    background-color: #bb3e03;
+    filter: drop-shadow(0 0 10px rgb(207, 55, 55));
+
+}
+
+li {
+    background: #14213D;
+    font-size: 1.2rem;
+    font-weight: 1.2rem;
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    gap: 7px;
+    border-radius: 1rem;
+}
+
+li a i {
+    color: white;
+}
+
+li:hover {
+    font-size: 1.08rem;
+    background-color: #bb3e03;
+    filter: drop-shadow(0 0 10px rgb(207, 55, 55));
+}
+
+.box {
+    height: 10rem;
+    width: 252px;
+    border-radius: 1rem;
+    background-color: #264653;
+    background-image: url(picture/hero-section.avif);
+    background-size: cover;
+
+}
+
+.offer-box {
+    height: 7.9rem;
+    width: 252px;
+    background-color: aqua;
+    border-radius: 1rem;
+    background-image:url(picture/book-offer.jpg);
+    background-size: contain;
+}
+.hero-section{
+    height: 20px;
+    width: 20px;
+    background-color: #07afd1;
+}
+/* book section */
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.book-hero{
+    height: 400px;
+    width: auto;
+    background-color: #bb3e03;
+    margin: 20px;
+
+}
+.boxs{
+    height: 10rem;
+    width: 200px;
+    min-width: auto;
+    background-color: aqua;
+    border-radius: 1rem; 
+    margin:10px;
+}
+
