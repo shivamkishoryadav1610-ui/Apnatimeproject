@@ -10,13 +10,11 @@ body {
 .logo {
     height: 40px;
     width: 40px;
-    background-image: url(picture/logo.avif);
+    background-image: url(logo.avif);
     background-size: cover;
-    /* mix-blend-mode: multiply; */
     filter: drop-shadow(0 0 10px #07afd1);
     border-radius: 50px;
     border: none;
-
 }
 
 .main-container {
@@ -204,34 +202,93 @@ li:hover {
     width: 252px;
     background-color: aqua;
     border-radius: 1rem;
-    background-image:url(picture/book-offer.jpg);
+    background-image: url(picture/book-offer.jpg);
     background-size: contain;
 }
-.hero-section{
+
+.hero-section {
     height: 20px;
     width: 20px;
     background-color: #07afd1;
 }
+
 /* book section */
-.main-content{
+.main-content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.book-hero{
+
+.book-hero {
     height: 400px;
     width: auto;
     background-color: #bb3e03;
     margin: 20px;
 
 }
-.boxs{
+
+.boxs {
     height: 10rem;
     width: 200px;
     min-width: auto;
     background-color: aqua;
-    border-radius: 1rem; 
-    margin:10px;
+    border-radius: 1rem;
+    margin: 10px;
 }
 
+.foot-panel {
+    color: white;
+    background-color: #111827;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.main-footer {
+    background-color: #14213D;
+    color: white;
+    font-size: 0.98rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-footer ul a {
+    display: block;
+    margin: 10px;
+    font-size: 0.85rem;
+}
+
+.main-footer ul p {
+    font-size: 0.98rem;
+    margin-top: 10px;
+}
+
+.footer-contect {
+    color: white;
+    background-color: #080d14;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.social-media {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10rem;
+    font-size: 2rem;
+    color: aqua;
+    filter: drop-shadow(0 0 10px aqua);
+    gap: 20px;
+}
+#logo-name{
+    margin-left: -70px;
+}
