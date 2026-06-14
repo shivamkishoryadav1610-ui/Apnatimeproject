@@ -16,6 +16,10 @@ body {
     border-radius: 50px;
     border: none;
 }
+a i{
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 .main-container {
     min-height: 60px;
