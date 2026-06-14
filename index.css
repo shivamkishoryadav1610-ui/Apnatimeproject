@@ -10,7 +10,7 @@ body {
 .logo {
     height: 40px;
     width: 40px;
-    background-image: url(logo.avif);
+    background-image: url(picture/logo.avif);
     background-size: cover;
     filter: drop-shadow(0 0 10px #07afd1);
     border-radius: 50px;
@@ -138,7 +138,7 @@ body {
 }
 
 .aside {
-    background-color: #ffffff;
+    background-color: #ffffff4f;
     width: 252px;
     height: 27rem;
     color: white;
@@ -285,9 +285,16 @@ li:hover {
     align-items: center;
     margin-left: 10rem;
     font-size: 2rem;
-    color: aqua;
     filter: drop-shadow(0 0 10px aqua);
     gap: 20px;
+}
+.social-media a i {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.social-media a i:hover{
+color: aqua;
+font-size: 2.4rem;
 }
 #logo-name{
     margin-left: -70px;
