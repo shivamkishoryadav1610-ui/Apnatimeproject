@@ -16,7 +16,8 @@ body {
     border-radius: 50px;
     border: none;
 }
-a i{
+
+a i {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -212,7 +213,7 @@ li:hover {
 
 .hero-section {
     height: 200px;
-    width:100%;
+    width: 100%;
     background-color: #07afd1;
     margin: 5px;
     border-radius: 1rem;
@@ -220,19 +221,61 @@ li:hover {
     justify-content: center;
     align-items: center;
 }
+
 /* card */
-.shoping-maincard{
-    height: 400px;
-    width: 100%;
-    background-color: aquamarine;
+.shoping-maincard {
+    height: 100%;
+    width: auto;
+    background-color: #ffffff4f;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 0.98rem;
 }
-#card{
-    height: 100px;
+
+#card {
+    height: 340px;
+    width: 220px;
+    background-color:rgba(245, 245, 245, 0.363);
+    filter: drop-shadow(0 0 7px whitesmoke);
+    margin: 10px;
+    border-radius: 1rem;
+}
+
+#card h3 {
+    background-color: white;
+    border: 4px snow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 15px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#card img {
+    border-radius: 0.98rem;
+    padding: 10px;
+}
+
+#card button {
+    margin: 4px;
+    border-radius: 0.98rem;
+    height: 40px;
     width: 100px;
-    background-color: brown;
+    text-align: center;
+    color:white;
+     background-color: #1d3557;
+}
+
+#card button:hover {
+    background-color:#b14610;
+    font-size: 0.88rem;
+    filter: drop-shadow(0 0 10px #b14610);
 }
 
 
@@ -312,14 +355,17 @@ li:hover {
     filter: drop-shadow(0 0 10px aqua);
     gap: 20px;
 }
+
 .social-media a i {
     text-decoration: none;
     color: whitesmoke;
 }
-.social-media a i:hover{
-color: aqua;
-font-size: 2.4rem;
+
+.social-media a i:hover {
+    color: aqua;
+    font-size: 2.4rem;
 }
-#logo-name{
+
+#logo-name {
     margin-left: -70px;
 }
