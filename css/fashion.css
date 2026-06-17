@@ -197,7 +197,7 @@ li:hover {
     width: 252px;
     border-radius: 1rem;
     background-color: #264653;
-    background-image: url(picture/hero-section.avif);
+    background-image: url(/picture/hero-section.avif);
     background-size: cover;
 
 }
@@ -207,7 +207,7 @@ li:hover {
     width: 252px;
     background-color: aqua;
     border-radius: 1rem;
-    background-image: url(picture/book-offer.jpg);
+    background-image: url(/picture/book-offer.jpg);
     background-size: contain;
 }
 
