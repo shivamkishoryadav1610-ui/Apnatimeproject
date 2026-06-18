@@ -192,32 +192,36 @@ li:hover {
     background-color: #bb3e03;
     filter: drop-shadow(0 0 10px rgb(207, 55, 55));
 }
-
-.box {
-    height: 10rem;
-    width: 252px;
-    border-radius: 1rem;
-    background-color: #264653;
-    background-image: url(picture/hero-section.avif);
-    background-size: cover;
-
-}
-
-.boxs {
-    height: 10rem;
-    width: 200px;
-    min-width: auto;
-    background-color: aqua;
-    border-radius: 1rem;
-    margin: 10px;
-}
 /* main content */
 .main-box{
-    background-color: #14213D;
-    height: 400px;
-    width: 100%;
+    background-color: #ffffff4f;
+    height: 100%;
+    width: auto;
+    color:black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:20px ;
+    border-radius: 1rem;
+}
+.box{
+    height: 60px;
+    width: 200px;
+    background-color:rgba(245, 245, 245, 0.716);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
 
-
+}
+.text{
+    margin-top: 10px;
+    background-color: #457b9d;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 /* footer panel */
 
@@ -277,12 +281,6 @@ li:hover {
     text-decoration: none;
     color: whitesmoke;
 }
-
-.social-media a i:hover {
-    color: aqua;
-    font-size: 2.4rem;
-}
-
 #logo-name {
     margin-left: -70px;
 }
