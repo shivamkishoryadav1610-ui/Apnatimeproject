@@ -6,6 +6,8 @@
 
 body {
     background-color: #457b9d;
+    height: auto;
+    width: auto;
 }
 
 .logo {
@@ -37,7 +39,7 @@ a i {
     display: flex;
     justify-content: space-evenly;
     height: auto;
-    width: 100%;
+    width: auto;
     flex-wrap: wrap;
     gap: 5px;
 }
@@ -162,12 +164,6 @@ h2 {
     /* filter: drop-shadow(0 0 10px whitesmoke); */
 }
 
-h2:hover {
-    background-color: #bb3e03;
-    filter: drop-shadow(0 0 10px rgb(207, 55, 55));
-
-}
-
 li {
     background: #14213D;
     font-size: 1.2rem;
@@ -192,23 +188,25 @@ li:hover {
     background-color: #bb3e03;
     filter: drop-shadow(0 0 10px rgb(207, 55, 55));
 }
+
 /* main content */
-.main-box{
+.main-box {
     background-color: #ffffff4f;
-    height: 100%;
+    height: auto;
     width: auto;
-    color:black;
+    color: black;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin:20px ;
+    margin: 20px;
     border-radius: 1rem;
 }
-.box{
+
+.box {
     height: 60px;
     width: 200px;
-    background-color:rgba(245, 245, 245, 0.716);
+    background-color: rgba(245, 245, 245, 0.716);
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -216,13 +214,38 @@ li:hover {
     border-radius: 1rem;
 
 }
-.text{
+
+.text {
     margin-top: 10px;
     background-color: #457b9d;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+
+.item-link {
+    height: 400px;
+    width: auto;
+    background-color: #ffffff4f;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-wrap: wrap-;
+    border-radius: 1rem;
+    gap: 10px;
+
+}
+
+#link-box {
+    height: 100px;
+    width: 200px;
+    background-color: #bb3e03;
+    color: black;
+    border-radius: 1rem;
+    margin-top: 20px;
+}
+
 /* footer panel */
 
 .foot-panel {
@@ -281,6 +304,7 @@ li:hover {
     text-decoration: none;
     color: whitesmoke;
 }
+
 #logo-name {
     margin-left: -70px;
 }
