@@ -211,6 +211,15 @@ li:hover {
     border-radius: 1rem;
     margin: 10px;
 }
+/* main content */
+.main-box{
+    background-color: #14213D;
+    height: 400px;
+    width: 100%;
+
+
+}
+/* footer panel */
 
 .foot-panel {
     color: white;
