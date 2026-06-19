@@ -4,6 +4,7 @@
     text-decoration: none;
 }
 
+
 body {
     background-color: #457b9d;
     height: auto;
@@ -215,6 +216,8 @@ li:hover {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+    border-radius: 1rem;
+    margin: 10px;
 
 }
 
