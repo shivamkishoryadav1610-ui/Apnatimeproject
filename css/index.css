@@ -270,12 +270,13 @@ li:hover {
     text-align: center;
     color:white;
      background-color: #1d3557;
+     border: none;
 }
 
 #card button:hover {
     background-color:#b14610;
     font-size: 0.88rem;
-    filter: drop-shadow(0 0 10px #b14610);
+    filter: drop-shadow(0 0 10px aqua);
 }
 
 

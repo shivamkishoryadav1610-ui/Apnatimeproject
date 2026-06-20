@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    background-color: #457b9d;
-}
-
 .logo {
     height: 40px;
     width: 40px;
@@ -177,34 +173,74 @@ li:hover {
 }
 
 /* customer suppoert */
-.customer-logo{
-    height: 1000px;
+.customer-logo {
+    height: 850px;
     width: 100%;
-    background-color: red;
+    margin: 15px;
 }
-.main-logo{
+
+.main-logo {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: hsla(0, 0%, 96%, 0.726);
+    filter: drop-shadow(0 0 7px rgb(8, 158, 251));
+    border-radius: 1rem;
 }
-.serv-logo{
+
+.serv-logo {
     border-radius: 50%;
     border: 5px solid none;
 }
-.info{
+.serv-logo:hover{
+    filter: drop-shadow(0 0 10px aqua);
+}
+
+.info {
     height: 400px;
-    background:greenyellow;
-    display:flex;
+    background: hsla(0, 0%, 96%, 0.726);
+    filter: drop-shadow(0 0 7px rgb(8, 158, 251));
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    margin: 20px;
+    border-radius: 1rem;
 }
-#info-box{
+
+
+#info-box {
     height: 100px;
-    width: 100px;
-    background-color: blue;
+    width: 200px;
+    border-radius: 1rem;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    text-wrap-mode: wrap;
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
+#info-box:hover{
+    filter: drop-shadow(0 0 10px aqua);
+}
+
+button {
+    margin: 4px;
+    border-radius: 0.98rem;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    background-color: #1d3557;
+}
+
+button:hover {
+    font-size: 0.88rem;
+    filter: drop-shadow(0 0 10px aqua);
+}
+
 /* footer */
 .foot-panel {
     color: white;
