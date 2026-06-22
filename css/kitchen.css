@@ -195,7 +195,7 @@ li:hover {
 /* hero section */
 * {
     margin: 0;
-
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -205,8 +205,8 @@ body {
 
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(226, 228, 219, 0.724),
-            rgba(150, 139, 139, 0.861)),
+    background: linear-gradient(hsla(70, 100%, 99%, 0),
+            rgba(27, 89, 125, 0.861)),
         url("/picture/kitchen.png") center/cover no-repeat;
 
     display: flex;
@@ -214,9 +214,6 @@ body {
     align-items: center;
     text-align: center;
     color: white;
-    margin: 5px;
-    border-radius: 1rem;
-      /* filter: drop-shadow(0 0 10px rgb(207, 55, 55)); */
 }
 
 .hero-content {
@@ -310,7 +307,7 @@ body {
 #card button:hover {
     background-color: #b14610;
     font-size: 0.88rem;
-    filter: drop-shadow(0 0 10px #b14610);
+    filter: drop-shadow(0 0 10px aqua);
 
 }
 
