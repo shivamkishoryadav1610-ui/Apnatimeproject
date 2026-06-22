@@ -192,34 +192,67 @@ li:hover {
     filter: drop-shadow(0 0 10px rgb(207, 55, 55));
 }
 
-.box {
-    height: 10rem;
-    width: 252px;
-    border-radius: 1rem;
-    background-color: #264653;
-    background-image: url(/picture/hero-section.avif);
-    background-size: cover;
+/* hero section */
+* {
+    margin: 0;
 
+    box-sizing: border-box;
 }
 
-.offer-box {
-    height: 7.9rem;
-    width: 252px;
-    background-color: aqua;
-    border-radius: 1rem;
-    background-image: url(/picture/book-offer.jpg);
-    background-size: contain;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.hero-section {
-    height: 200px;
-    width: 100%;
-    background-color: #07afd1;
-    margin: 5px;
-    border-radius: 1rem;
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(226, 228, 219, 0.724),
+            rgba(150, 139, 139, 0.861)),
+        url("/picture/kitchen.png") center/cover no-repeat;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    border-radius: 1rem;
+      /* filter: drop-shadow(0 0 10px rgb(207, 55, 55)); */
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: black;
+}
+.hero h3{
+    color: #133059;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #080d14;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #1d3557;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e65c00;
+    transform: translateY(-3px);
 }
 
 /* card */
@@ -229,7 +262,7 @@ li:hover {
     background-color: #ffffff4f;
     display: flex;
     justify-content: space-evenly;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin: 10px;
     border-radius: 0.98rem;
@@ -238,7 +271,7 @@ li:hover {
 #card {
     height: 340px;
     width: 220px;
-    background-color:rgba(245, 245, 245, 0.363);
+    background-color: rgba(245, 245, 245, 0.363);
     filter: drop-shadow(0 0 7px whitesmoke);
     margin: 10px;
     border-radius: 1rem;
@@ -268,14 +301,17 @@ li:hover {
     height: 40px;
     width: 100px;
     text-align: center;
-    color:white;
-     background-color: #1d3557;
+    color: white;
+    background-color: #1d3557;
+    border: none;
+
 }
 
 #card button:hover {
-    background-color:#b14610;
+    background-color: #b14610;
     font-size: 0.88rem;
     filter: drop-shadow(0 0 10px #b14610);
+
 }
 
 

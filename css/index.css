@@ -5,6 +5,7 @@
 
 body {
     background-color: #457b9d;
+    
 }
 
 .logo {
@@ -54,7 +55,6 @@ a i {
     padding: 0;
     color: white;
     justify-content: space-evenly;
-
 }
 
 #btn {
@@ -191,26 +191,6 @@ li:hover {
     background-color: #bb3e03;
     filter: drop-shadow(0 0 10px rgb(207, 55, 55));
 }
-
-.box {
-    height: 10rem;
-    width: 252px;
-    border-radius: 1rem;
-    background-color: #264653;
-    background-image: url(picture/hero-section.avif);
-    background-size: cover;
-
-}
-
-.offer-box {
-    height: 7.9rem;
-    width: 252px;
-    background-color: aqua;
-    border-radius: 1rem;
-    background-image: url(picture/book-offer.jpg);
-    background-size: contain;
-}
-
 .hero-section {
     height: 200px;
     width: 100%;
