@@ -196,8 +196,8 @@ li:hover {
 .hero {
     height: 100vh;
     background: linear-gradient(hwb(12 4% 11% / 0.258),
-            rgba(15, 0, 0, 0.861)), 
-            url("/picture/kitchen.png") center/cover no-repeat;
+            rgba(15, 0, 0, 0.861)),
+        url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKr0ujrRRVYs1_0WS7QU04NRsOiB7js9V5O2mxMzBv1A&s=10") center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
