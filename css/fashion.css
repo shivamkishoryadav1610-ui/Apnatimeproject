@@ -229,7 +229,7 @@ li:hover {
     background-color: #ffffff4f;
     display: flex;
     justify-content: space-evenly;
-    align-items:flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin: 10px;
     border-radius: 0.98rem;
@@ -238,7 +238,7 @@ li:hover {
 #card {
     height: 340px;
     width: 220px;
-    background-color:rgba(245, 245, 245, 0.363);
+    background-color: rgba(245, 245, 245, 0.363);
     filter: drop-shadow(0 0 7px whitesmoke);
     margin: 10px;
     border-radius: 1rem;
@@ -268,12 +268,12 @@ li:hover {
     height: 40px;
     width: 100px;
     text-align: center;
-    color:white;
-     background-color: #1d3557;
+    color: white;
+    background-color: #1d3557;
 }
 
 #card button:hover {
-    background-color:#b14610;
+    background-color: #b14610;
     font-size: 0.88rem;
     filter: drop-shadow(0 0 10px #b14610);
 }
@@ -361,7 +361,7 @@ li:hover {
     color: whitesmoke;
 }
 
-.social-media a i:hover {
+.social-media i:hover {
     color: aqua;
     font-size: 2.4rem;
 }

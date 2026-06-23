@@ -303,7 +303,7 @@ button:hover {
     color: whitesmoke;
 }
 
-.social-media a i:hover {
+.social-media  i:hover {
     color: aqua;
     font-size: 2.4rem;
 }
