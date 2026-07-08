@@ -46,11 +46,15 @@ a i {
     height: 2rem;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    color: black;
+    font-size: medium;
+    font-weight: 250;
+
 }
 
 .search {
     height: 2rem;
-    width: 25rem;
+    width: auto;
     max-width: 100%;
     padding: 0;
     color: white;
